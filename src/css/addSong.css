@@ -1,0 +1,30 @@
+div.addSongContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input.trackInput {
+    margin: 5px;
+    border-color: rgb(248, 58, 58);
+}
+button.submitBtn:hover {
+    color: rgb(248, 58, 58);
+    background-color: white;
+    border-color: rgb(248, 58, 58);
+    cursor: pointer;
+}
+
+button.submitBtn {
+    background-color: rgb(248, 58, 58);
+    border-color: white;
+    height: 30px;
+    width: 100px;
+    color: white;
+    margin: 5px;
+}
+
+img.trackInput {
+    width: 275px;
+    height: 275px;
+    margin: 10px;
+}

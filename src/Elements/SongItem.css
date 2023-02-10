@@ -1,0 +1,19 @@
+div.trackCard {
+    /* width: 550px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+.trackInput {
+    border-style: solid;
+    border-color: rgb(248, 58, 58);
+    margin: 5px;
+    padding: 2.5px;
+}
+p.trackInput, h3.trackInput {
+    display: flex;
+    flex-direction: column-reverse;
+}
